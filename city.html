@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Phozogy Template">
+    <meta name="keywords" content="Phozogy, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phozogy | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/wallpapersection.css" type="text/css">
+    <link rel="stylesheet" href="css/download.css" type="text/css">    
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="https://drive.google.com/thumbnail?id=16UhCvFIjUAdaz4rjDYOzZfo5s3o335Sp" alt="">
+                        </a>
+                    </div>
+                    <nav class="nav-menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="./pricing.html">Pricing</a></li>
+                            <li><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="top-search search-switch">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div id="mobile-menu-wrap"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+            
+        <div class="hs-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="hero-9.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hs-text">
+                                <h2>City Mobile Wallpapers</h2>
+                                <p>Bring the energy of urban life to your screen with stunning city wallpapers, featuring neon-lit skylines, bustling streets, and breathtaking cityscapes.</p>
+                                <a href="./viewmore.html" class="primary-btn">Our Wallpaper Categories</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+<body>
+<!--Wallpaper Section Start-->
+<section>
+    <!-- Pop-up Ad (Hidden by Default) -->
+<div id="popup-ad">
+<div class="popup-content">
+    <span id="close-popup">
+        <img width="16" height="16" src="https://img.icons8.com/tiny-color/16/cancel.png" alt="cancel"/>
+    </span>
+    <iframe id="ad-iframe" frameborder="0"></iframe>
+    <p id="countdown-text">Your wallpaper is downloading in 3 seconds...</p>
+</div>
+</div>
+<div class="category-section">
+<div class="wallpaper-container">
+    <!-- City Wallpaper 1 -->
+    <div class="wallpaper-item">
+            <img src="https://drive.google.com/thumbnail?id=#add-image-idE" alt="City Wallpaper 1">
+        <div class="actions">
+            <button class="download-btn" data-src="https://drive.google.com/uc?id=#add-image-id#&export=download">
+                <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+            </button> 
+            
+            <!--Wallpapr View Button-->
+            <button class="view-btn" onclick="openPopup('#adsera-derect-link#', 'https://drive.google.com/thumbnail?id=#add-image-id#')">
+                <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+            </button>
+            
+            <!--Like Button Start-->
+        <button class="like-btn" onclick="openAdAndLike()">
+            <a href="#">
+                <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+            </a>
+        </button>
+        
+        <script>
+        function openAdAndLike() {
+            var adUrl = "#adsera-direct-link#"; // Adsterra Direct Link 
+        
+            // Ad Open  
+            var adWindow = window.open(adUrl, "_blank");
+        
+
+            setTimeout(function() {
+                // Ad window close if required or any other action here
+                adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+            }, 3000); // 3 seconds after Ad starts
+        }
+        </script>
+        <!--Like Button End-->
+
+            <!--Info Button Start-->
+        <button class="info-btn" onclick="openAdAndInfo()">
+            <a href="#">
+                <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+            </a>
+        </button>
+        
+        <script>
+        function openAdAndInfo() {
+            var adUrl = "#adsera-derect-link#"; // Adsterra Direct Link 
+        
+            // Ad Open 
+            var adWindow = window.open(adUrl, "_blank");
+        
+
+            setTimeout(function() {
+                // Ad window close if required or any other action here
+                adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+            }, 3000); // 3 seconds after Ad starts
+        }
+        </script>
+        <!--Info Button End-->
+            
+
+        </div>
+    </div>
+
+    <!-- Repeat for other City wallpapers... -->
+</div>
+</div>
+
+</script>
+<!-- Popup Box -->
+<div id="popup" class="popup-container">
+<div class="popup-box">
+<button class="popup-close" onclick="closePopup()">
+    <img src="https://img.icons8.com/tiny-color/16/cancel.png" alt="Close">
+</button>
+<iframe id="adFrame"></iframe>
+<img id="wallpaperPreview" src="" alt="Wallpaper Preview">
+</div>
+</div>
+
+<script>
+function openPopup(adUrl, wallpaperUrl) {
+var popup = document.getElementById("popup");
+var adFrame = document.getElementById("adFrame");
+var wallpaperImg = document.getElementById("wallpaperPreview");
+
+popup.style.display = "flex"; // Show popup
+adFrame.src = adUrl; // Load Ad URL
+
+
+setTimeout(function() {
+adFrame.style.display = "none"; // Hide Ad
+wallpaperImg.src = wallpaperUrl; // Load wallpaper preview
+wallpaperImg.style.display = "block"; // Show wallpaper
+}, 2000);
+}
+
+function closePopup() {
+document.getElementById("popup").style.display = "none"; // Close popup
+}
+</script>
+
+</section>
+
+
+<!--Wallpaper Section End-->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-about">
+                        <div class="fa-logo">
+                            <a href="#">
+                                <img src="https://drive.google.com/thumbnail?id=1ef6QygrB-LraiS8a11EWCZOkyZuHeuyw" alt="">
+                            </a>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <div class="fa-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Instagram</h5>
+                        <div class="fw-instagram">
+                            <script type="text/javascript">
+                                atOptions = {
+                                    'key' : '9e7c93e2055f0b88727e570d1ae322ba',
+                                    'format' : 'iframe',
+                                    'height' : 250,
+                                    'width' : 300,
+                                    'params' : {}
+                                };
+                            </script>
+                            <script type="text/javascript" src="//www.highperformanceformat.com/9e7c93e2055f0b88727e570d1ae322ba/invoke.js"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Quick links</h5>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./pricing.html">Pricing</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Subscribe</h5>
+                        <script type="text/javascript">
+                            atOptions = {
+                                'key' : '9e7c93e2055f0b88727e570d1ae322ba',
+                                'format' : 'iframe',
+                                'height' : 250,
+                                'width' : 300,
+                                'params' : {}
+                            };
+                        </script>
+                        <script type="text/javascript" src="//www.highperformanceformat.com/9e7c93e2055f0b88727e570d1ae322ba/invoke.js"></script>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="copyright-text">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/download.js"></script>
+</body>
+
+</html>

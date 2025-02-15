@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Phozogy Template">
+    <meta name="keywords" content="Phozogy, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phozogy | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/wallpapersection.css" type="text/css">
+    <link rel="stylesheet" href="css/download.css" type="text/css">    
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="https://drive.google.com/thumbnail?id=16UhCvFIjUAdaz4rjDYOzZfo5s3o335Sp" alt="">
+                        </a>
+                    </div>
+                    <nav class="nav-menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="./pricing.html">Pricing</a></li>
+                            <li><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="top-search search-switch">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div id="mobile-menu-wrap"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section">
+            
+        <div class="hs-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="hero-11.png">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hs-text">
+                                <h2>Anime Mobile Wallpapers</h2>
+                                <p>Step into the world of anime with vibrant wallpapers of your favorite characters, breathtaking scenes, and beautifully detailed anime art.</p>
+                                <a href="./viewmore.html" class="primary-btn">Our Wallpaper Categories</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+
+<body>
+<!--Wallpaper Section Start-->
+<section>
+    <!-- Pop-up Ad (Hidden by Default) -->
+<div id="popup-ad">
+<div class="popup-content">
+    <span id="close-popup">
+        <img width="16" height="16" src="https://img.icons8.com/tiny-color/16/cancel.png" alt="cancel"/>
+    </span>
+    <iframe id="ad-iframe" frameborder="0"></iframe>
+    <p id="countdown-text">Your wallpaper is downloading in 3 seconds...</p>
+</div>
+</div>
+<div class="category-section">
+<div class="wallpaper-container">
+    <!-- Anime Wallpaper 1 -->
+    <div class="wallpaper-item">
+            <img src="https://drive.google.com/thumbnail?id=1DQRX9CTeWkprpL37FNBSYEnNq2XecUpV" alt="Anime Wallpaper 1">
+        <div class="actions">
+            <button class="download-btn" data-src="https://drive.google.com/uc?id=1DQRX9CTeWkprpL37FNBSYEnNq2XecUpV&export=download">
+                <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+            </button> 
+            
+            <!--Wallpapr View Button-->
+            <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1DQRX9CTeWkprpL37FNBSYEnNq2XecUpV')">
+                <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+            </button>
+            
+            <!--Like Button Start-->
+        <button class="like-btn" onclick="openAdAndLike()">
+            <a href="#">
+                <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+            </a>
+        </button>
+        
+        <script>
+        function openAdAndLike() {
+            var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+        
+            // Ad Open  
+            var adWindow = window.open(adUrl, "_blank");
+        
+
+            setTimeout(function() {
+                // Ad window close if required or any other action here
+                adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+            }, 3000); // 3 seconds after Ad starts
+        }
+        </script>
+        <!--Like Button End-->
+
+            <!--Info Button Start-->
+        <button class="info-btn" onclick="openAdAndInfo()">
+            <a href="#">
+                <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+            </a>
+        </button>
+        
+        <script>
+        function openAdAndInfo() {
+            var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+        
+            // Ad Open 
+            var adWindow = window.open(adUrl, "_blank");
+        
+
+            setTimeout(function() {
+                // Ad window close if required or any other action here
+                adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+            }, 3000); // 3 seconds after Ad starts
+        }
+        </script>
+        <!--Info Button End-->
+            
+
+        </div>
+    </div>
+    <!--Anime Wallpaper 1 End-->
+    <!-- Anime Wallpaper 2 -->
+    <div class="wallpaper-item">
+        <img src="https://drive.google.com/thumbnail?id=1NcIIVmznnli6Ikzw4acfflW9LCmlwsYf" alt="Anime Wallpaper 2">
+    <div class="actions">
+        <button class="download-btn" data-src="https://drive.google.com/uc?id=1NcIIVmznnli6Ikzw4acfflW9LCmlwsYf&export=download">
+            <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+        </button> 
+        
+        <!--Wallpapr View Button-->
+        <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1NcIIVmznnli6Ikzw4acfflW9LCmlwsYf')">
+            <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+        </button>
+        
+        <!--Like Button Start-->
+    <button class="like-btn" onclick="openAdAndLike()">
+        <a href="#">
+            <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+        </a>
+    </button>
+    
+    <script>
+    function openAdAndLike() {
+        var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+    
+        // Ad Open  
+        var adWindow = window.open(adUrl, "_blank");
+    
+
+        setTimeout(function() {
+            // Ad window close if required or any other action here
+            adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+        }, 3000); // 3 seconds after Ad starts
+    }
+    </script>
+    <!--Like Button End-->
+
+        <!--Info Button Start-->
+    <button class="info-btn" onclick="openAdAndInfo()">
+        <a href="#">
+            <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+        </a>
+    </button>
+    
+    <script>
+    function openAdAndInfo() {
+        var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+    
+        // Ad Open 
+        var adWindow = window.open(adUrl, "_blank");
+    
+
+        setTimeout(function() {
+            // Ad window close if required or any other action here
+            adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+        }, 3000); // 3 seconds after Ad starts
+    }
+    </script>
+    <!--Info Button End-->
+        
+
+    </div>
+</div>
+<!--Anime Wallpaper 2 End-->
+<!-- Anime Wallpaper 3 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1ygmxOFugTPuP3k-oU5RTrsy56Smmgkoo" alt="Anime Wallpaper 3">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1ygmxOFugTPuP3k-oU5RTrsy56Smmgkoo&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1ygmxOFugTPuP3k-oU5RTrsy56Smmgkoo')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 3 End-->
+<!-- Anime Wallpaper 4 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=14DPqYSLPCmYH4_zPbN3x1uY8Kd5LvrHS" alt="Anime Wallpaper 4">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=14DPqYSLPCmYH4_zPbN3x1uY8Kd5LvrHS&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=14DPqYSLPCmYH4_zPbN3x1uY8Kd5LvrHS')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 4 End-->
+<!-- Anime Wallpaper 5 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1X-Ve4CzOD0TShLLili2ByHySsHYiGL4Y" alt="Anime Wallpaper 5">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1X-Ve4CzOD0TShLLili2ByHySsHYiGL4Y&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1X-Ve4CzOD0TShLLili2ByHySsHYiGL4Y')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 5 End-->
+<!-- Anime Wallpaper 6 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=10-pb4tFAwzR3fdtbkKh7ueEqVmxr5EnW" alt="Anime Wallpaper 6">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=10-pb4tFAwzR3fdtbkKh7ueEqVmxr5EnW&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=10-pb4tFAwzR3fdtbkKh7ueEqVmxr5EnW')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 6 End-->
+<!-- Anime Wallpaper 7 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1L_Ncshi8OLmH1Ckrr-lBjifeNwoCD_zL" alt="Anime Wallpaper 7">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1L_Ncshi8OLmH1Ckrr-lBjifeNwoCD_zL&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1L_Ncshi8OLmH1Ckrr-lBjifeNwoCD_zL')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 7 End-->
+<!-- Anime Wallpaper 8 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1egbYvZUXFmB0uxCZGAIzfhkg_UsUfwi3" alt="Anime Wallpaper 8">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1egbYvZUXFmB0uxCZGAIzfhkg_UsUfwi3&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1egbYvZUXFmB0uxCZGAIzfhkg_UsUfwi3')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 8 End-->
+<!-- Anime Wallpaper 9 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1uNCG8QOhcKNJ4vg5KCur6R0sbfdz2A9h" alt="Anime Wallpaper 9">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1uNCG8QOhcKNJ4vg5KCur6R0sbfdz2A9h&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1uNCG8QOhcKNJ4vg5KCur6R0sbfdz2A9h')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 9 End-->
+<!-- Anime Wallpaper 10 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1aRkLJ6LG-u54XBnyz4hEcT-VpkpLwkxR" alt="Anime Wallpaper 10">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1aRkLJ6LG-u54XBnyz4hEcT-VpkpLwkxR&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1aRkLJ6LG-u54XBnyz4hEcT-VpkpLwkxR')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 10 End-->
+<!-- Anime Wallpaper 11 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1aFZ1qUSd96kJGwF08H5A8pYvk84mt7mY" alt="Anime Wallpaper 11">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1aFZ1qUSd96kJGwF08H5A8pYvk84mt7mY&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1aFZ1qUSd96kJGwF08H5A8pYvk84mt7mY')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 11 End-->
+<!-- Anime Wallpaper 12 -->
+<div class="wallpaper-item">
+    <img src="https://drive.google.com/thumbnail?id=1TqFmHlBJeLNT2kJDvhw0G4vMR1RKD5zU" alt="Anime Wallpaper 12">
+<div class="actions">
+    <button class="download-btn" data-src="https://drive.google.com/uc?id=1TqFmHlBJeLNT2kJDvhw0G4vMR1RKD5zU&export=download">
+        <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+    </button> 
+    
+    <!--Wallpapr View Button-->
+    <button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1TqFmHlBJeLNT2kJDvhw0G4vMR1RKD5zU')">
+        <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+    </button>
+    
+    <!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+    <a href="#">
+        <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndLike() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open  
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+    <!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+    <a href="#">
+        <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+    </a>
+</button>
+
+<script>
+function openAdAndInfo() {
+    var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+    // Ad Open 
+    var adWindow = window.open(adUrl, "_blank");
+
+
+    setTimeout(function() {
+        // Ad window close if required or any other action here
+        adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+    }, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+    
+
+</div>
+</div>
+<!--Anime Wallpaper 12 End-->
+<!-- Anime Wallpaper 13 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=15KO5etvcf_6b6UnGOGnVw-HkM3meQtav" alt="Anime Wallpaper 13">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=15KO5etvcf_6b6UnGOGnVw-HkM3meQtav&export=download">
+    <img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=15KO5etvcf_6b6UnGOGnVw-HkM3meQtav')">
+    <img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+    <img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+    // Ad window close if required or any other action here
+    adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+    <img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+    // Ad window close if required or any other action here
+    adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 13 End-->
+<!-- Anime Wallpaper 14 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=1ld-Sr_9bi64oKIR21x97jTI9u2R3mrGl" alt="Anime Wallpaper 14">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=1ld-Sr_9bi64oKIR21x97jTI9u2R3mrGl&export=download">
+<img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1ld-Sr_9bi64oKIR21x97jTI9u2R3mrGl')">
+<img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+<img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+<img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 14 End-->
+<!-- Anime Wallpaper 15 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=1trbThS5euWYPM_dtXTWspzFMnQSNqMeO" alt="Anime Wallpaper 15">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=1trbThS5euWYPM_dtXTWspzFMnQSNqMeO&export=download">
+<img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1trbThS5euWYPM_dtXTWspzFMnQSNqMeO')">
+<img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+<img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+<img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 15 End-->
+<!-- Anime Wallpaper 16 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=15kFXyFVJwZbqc9dSUfsqGPuxwM7gEFbF" alt="Anime Wallpaper 16">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=15kFXyFVJwZbqc9dSUfsqGPuxwM7gEFbF&export=download">
+<img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=15kFXyFVJwZbqc9dSUfsqGPuxwM7gEFbF')">
+<img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+<img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+<img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 16 End-->
+<!-- Anime Wallpaper 17 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=16PMKqSBpIiKY75TaJyyOZ4ruS9WXjf5t" alt="Anime Wallpaper 17">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=16PMKqSBpIiKY75TaJyyOZ4ruS9WXjf5t&export=download">
+<img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=16PMKqSBpIiKY75TaJyyOZ4ruS9WXjf5t')">
+<img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+<img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+<img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 17 End-->
+<!-- Anime Wallpaper 18 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=1ShGDc6CNlzgGa43Cd43-NAEGfiFovCXF" alt="Anime Wallpaper 1">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=1ShGDc6CNlzgGa43Cd43-NAEGfiFovCXF&export=download">
+<img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1ShGDc6CNlzgGa43Cd43-NAEGfiFovCXF')">
+<img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+<img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+<img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 18 End-->
+<!-- Anime Wallpaper 19 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=11fmozR4LIpouuy3PkVYZj_Rw4a30Zxr6" alt="Anime Wallpaper 1">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=11fmozR4LIpouuy3PkVYZj_Rw4a30Zxr6&export=download">
+<img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=11fmozR4LIpouuy3PkVYZj_Rw4a30Zxr6')">
+<img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+<img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+<img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 19 End-->
+<!-- Anime Wallpaper 20 -->
+<div class="wallpaper-item">
+<img src="https://drive.google.com/thumbnail?id=1m5_D94nXkjSxlSLrdGsG-Ph58DaH2vjO" alt="Anime Wallpaper 20">
+<div class="actions">
+<button class="download-btn" data-src="https://drive.google.com/uc?id=1m5_D94nXkjSxlSLrdGsG-Ph58DaH2vjO&export=download">
+<img src="https://img.icons8.com/material-rounded/50/download.png" alt="download">
+</button> 
+
+<!--Wallpapr View Button-->
+<button class="view-btn" onclick="openPopup('https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5', 'https://drive.google.com/thumbnail?id=1m5_D94nXkjSxlSLrdGsG-Ph58DaH2vjO')">
+<img src="https://img.icons8.com/material-rounded/50/visible.png" alt="visible">
+</button>
+
+<!--Like Button Start-->
+<button class="like-btn" onclick="openAdAndLike()">
+<a href="#">
+<img src="https://img.icons8.com/material-sharp/24/love-circled.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndLike() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open  
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Like Button End-->
+
+<!--Info Button Start-->
+<button class="info-btn" onclick="openAdAndInfo()">
+<a href="#">
+<img src="https://img.icons8.com/android/24/info.png" alt="love-circled">
+</a>
+</button>
+
+<script>
+function openAdAndInfo() {
+var adUrl = "https://www.effectiveratecpm.com/yt2emeqsee?key=aa79593cf3c6dd1e5d838a824917cbe5"; // Adsterra Direct Link 
+
+// Ad Open 
+var adWindow = window.open(adUrl, "_blank");
+
+
+setTimeout(function() {
+// Ad window close if required or any other action here
+adWindow.close(); // Optional: Close Ad after some time (or remove this if not needed)
+}, 3000); // 3 seconds after Ad starts
+}
+</script>
+<!--Info Button End-->
+
+
+</div>
+</div>
+<!--Anime Wallpaper 20 End-->
+
+
+    <!-- Repeat for other Anime wallpapers... -->
+</div>
+</div>
+
+</script>
+<!-- Popup Box -->
+<div id="popup" class="popup-container">
+<div class="popup-box">
+<button class="popup-close" onclick="closePopup()">
+    <img src="https://img.icons8.com/tiny-color/16/cancel.png" alt="Close">
+</button>
+<iframe id="adFrame"></iframe>
+<img id="wallpaperPreview" src="" alt="Wallpaper Preview">
+</div>
+</div>
+
+<script>
+function openPopup(adUrl, wallpaperUrl) {
+var popup = document.getElementById("popup");
+var adFrame = document.getElementById("adFrame");
+var wallpaperImg = document.getElementById("wallpaperPreview");
+
+popup.style.display = "flex"; // Show popup
+adFrame.src = adUrl; // Load Ad URL
+
+
+setTimeout(function() {
+adFrame.style.display = "none"; // Hide Ad
+wallpaperImg.src = wallpaperUrl; // Load wallpaper preview
+wallpaperImg.style.display = "block"; // Show wallpaper
+}, 2000);
+}
+
+function closePopup() {
+document.getElementById("popup").style.display = "none"; // Close popup
+}
+</script>
+
+</section>
+
+
+<!--Wallpaper Section End-->
+
+     
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-about">
+                        <div class="fa-logo">
+                            <a href="#">
+                                <img src="https://drive.google.com/thumbnail?id=1ef6QygrB-LraiS8a11EWCZOkyZuHeuyw alt="">
+                            </a>
+                        </div>
+                        <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <div class="fa-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Instagram</h5>
+                        <div class="fw-instagram">
+                            <script type="text/javascript">
+                                atOptions = {
+                                    'key' : '9e7c93e2055f0b88727e570d1ae322ba',
+                                    'format' : 'iframe',
+                                    'height' : 250,
+                                    'width' : 300,
+                                    'params' : {}
+                                };
+                            </script>
+                            <script type="text/javascript" src="//www.highperformanceformat.com/9e7c93e2055f0b88727e570d1ae322ba/invoke.js"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Quick links</h5>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./pricing.html">Pricing</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Subscribe</h5>
+                        <script type="text/javascript">
+                            atOptions = {
+                                'key' : '9e7c93e2055f0b88727e570d1ae322ba',
+                                'format' : 'iframe',
+                                'height' : 250,
+                                'width' : 300,
+                                'params' : {}
+                            };
+                        </script>
+                        <script type="text/javascript" src="//www.highperformanceformat.com/9e7c93e2055f0b88727e570d1ae322ba/invoke.js"></script>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="copyright-text">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/download.js"></script>
+</body>
+
+</html>

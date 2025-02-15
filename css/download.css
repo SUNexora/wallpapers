@@ -1,0 +1,124 @@
+
+/*Wallpaper Download Button Start*/
+#popup-ad {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 370px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #ff9800;
+    
+}
+
+#ad-iframe {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+#countdown-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+#close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/*Wallpaper Download Button End*/
+
+/*Wallpaper Info Button Start*/
+
+/* General Styles */
+.hidden {
+    display: none;
+}
+
+/* Pop-up Styles */
+#info-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    text-align: center;
+    border: 5px solid #ff9800;
+    display: none; /* Initially hidden */
+    pointer-events: auto; /* Enable interactions inside the pop-up */
+}
+/* Close Button */
+#close-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Pop-up Content */
+.popup-content {
+    position: relative;
+    padding: 15px;
+}
+
+#popup-category {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.popup-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Buttons */
+#get-now-btn, #copy-btn {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+#get-now-btn:hover, #copy-btn:hover {
+    background: #e64a19;
+}
+
+/* Copy Confirmation Message */
+#copy-confirmation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: none;
+}
+
+/*Wallpaper Info Button End*/

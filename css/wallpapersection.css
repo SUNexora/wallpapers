@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.wallpaper-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.wallpaper-item {
+    position: relative;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.wallpaper-item:hover {
+    transform: scale(1.05);
+}
+
+.wallpaper-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.actions {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    background: rgba(92, 89, 89, 0.7);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    transition: bottom 0.3s ease;
+}
+
+.wallpaper-item:hover .actions {
+    bottom: 0;
+}
+
+.actions button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.actions button:hover {
+    transform: scale(1.2);
+}
+
+.actions img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.actions img:hover {
+    transform: rotate(360deg);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(101, 99, 99, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    max-width: 400px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#ad-countdown {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+/*wallpaper view button*/
+
+/* Popup box styles */
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-box {
+    position: relative;
+    width: 350px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-close img {
+    width: 16px;
+    height: 16px;
+}
+
+/* Ad iframe styles */
+#adFrame {
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+/* Wallpaper preview styles */
+#wallpaperPreview {
+    display: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/*Wallpaper Info Button*/
+
+/* Popup box styles */
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-box {
+    position: relative;
+    width: 350px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-close img {
+    width: 16px;
+    height: 16px;
+}
+
+/* Ad iframe styles */
+#adFrame {
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+
+/* Wallpaper prompt styles */
+#wallpaperPrompt {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
